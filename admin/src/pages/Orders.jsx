@@ -7,7 +7,7 @@ import { assets } from "../assets/assets";
 import { currency } from "../App";
 
 const Orders = ({ token }) => {
-  const backendUrl = "http://localhost:4000";
+  const backendUrl = "https://shopping-app-backend-f0db.onrender.com";
   const [orders, setOrders] = useState([]);
   const fetchAllOrders = async () => {
     if (!token) {
